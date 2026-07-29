@@ -1,0 +1,33 @@
+# Arduino / ESP32 编译产物
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.eep
+*.srec
+*.ino.bin
+*.ino.elf
+*.ino.hex
+*.ino.with_bootloader.bin
+sdkconfig
+sdkconfig.old
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 日志 & 临时
+*.log
+*.tmp
+*.bak
